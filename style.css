@@ -1,8 +1,13 @@
- body {
-    background-image:url("./background.jpeg") ;
-
+body {
+    background-image:url("./background.jpg");
 }
 
+h1 {
+    font-family: Verdana;
+    color: red;
+    text-align: center;
+    padding: 60px;
+}
 
 
 
