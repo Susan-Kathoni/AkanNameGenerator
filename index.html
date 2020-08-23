@@ -28,13 +28,14 @@
   <form action="/index.html" <div class="container">
 
     <label for="mm"><b>Date of birthday month:</b></label>
-      <input type="number" aria-valuemin="18" aria-valuemax=">18" id="cc"><br>
+      <input type="number" aria-valuemin="18" aria-valuemax=">18" id="cc" required><br>
     <label for="cc"><b>Year of birth:</b>
       <input type="number" aria-valuemin="18" aria-valuemax=">18" id="mm" required><br>
     <label for="gender"><b>Select your gender:</b></label>
-      <select id="gender" required name="gender">
+      <select id="gender" required name="gender" id ="gender" required>
         <option value="female">Female</option>
-        <option value="male">Male</option> 
+        <option value="male">Male</option>
+         
       </select>
       
       <input type="submit" value="Submit">
