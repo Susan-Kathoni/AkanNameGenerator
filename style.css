@@ -1,6 +1,7 @@
 body {
-    background-image:
-    url("./background.jpg");
+    background-image: url("./background-image.jpg");
+    height: 100%;
+    background-position-y: top;
 }
 
 h1 {
@@ -15,6 +16,11 @@ h2 {
     flood-color: rgb(27, 2, 18);
     padding: 60px;
     text-align: center;
+}
+
+form {
+    text-align: center;
+    
 }
 
 
