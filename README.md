@@ -23,6 +23,8 @@ ii) Download a code editor e.g Vs code, Atom e.t.c.
 
    -If you are using windows, open git bash and go to the current directory where you want the cloned directory to be copied. You shall then $ git clone (paste url). Press Enter. You can now work on the repository using your preferred code editor.
 
+NOTE: Some components of this project might not work with some browsers such as Internet Explorer version 9 and earlier.
+
 ## BDD
 
 
