@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -21,28 +21,58 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
     crossorigin="anonymous"></script>
-  <h1><strong>Don't cruise the internet without finding out your name!!<br>You can get it with just a click of a
-      button</strong><br><i>Fill in your details below and get your name</i></h1>
-</body>
-<form>
-  <form action="/index.html" <div class="container">
 
-    <label for="mm"><b>Date of birthday month:</b></label>
-      <input type="number" aria-valuemin="18" aria-valuemax=">18" id="cc" required><br>
-    <label for="cc"><b>Year of birth:</b>
-      <input type="number" aria-valuemin="18" aria-valuemax=">18" id="mm" required><br>
-    <label for="gender"><b>Select your gender:</b></label>
-      <select id="gender" required name="gender" id ="gender" required>
-        <option value="female">Female</option>
-        <option value="male">Male</option>
-         
-      </select>
-      
-      <input type="submit" value="Submit">
-  </form>
-</form>
-
+  <div class="h1">
+    <h1><strong>Don't cruise the internet without finding out your name!!<br>You can get it with just a click of a
+      button</strong></h1>
+  </div>
+    
+  <div class="container h-100">
+    <div class="row h-100 justify-content-center align-items-center">
+        <div class="col-10 col-md-8 col-lg-6">
+            <form class="form-example" action="" method="post">
+                <p class="description">Fill in your details below and get your name</p>
+                <div class="form-group">
+                    <label id="mm">Birthday Month:</label>
+                    <input type="number" class="form-control number" id="mm" name="username">
+                </div>
+                <div class="form-group">
+                  <label id="mm">Birthday Date:</label>
+                  <input type="number" class="form-control number" id="dd" name="username">
+              </div>
+                <div class="form-group">
+                  <label id="mm">Year of birth:</label>
+                    <input type="number" class="form-control number" id="cc" name="username">
+            </div>
+                <fieldset class="form-group">
+                  <div class="row">
+                    <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
+                    <div class="col-sm-10">
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                        <label class="form-check-label" for="gridRadios1">
+                          Male
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                        <label class="form-check-label" for="gridRadios2">
+                          Female
+                        </label>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </fieldset>
+                <button type="submit" class="btn btn-primary btn-customized">Submit</button>
+                
+            </form>
+           
+        </div>
+    </div>
 </div>
+
+
 </body>
 
 
