@@ -2,25 +2,64 @@ body {
     background-image: url("./background-image.jpg");
     height: 100%;
     background-position-y: top;
+    margin-top: 50px;
+    padding-top: 50px;
 }
 
-h1 {
-    font-family: Verdana;
-    color: red;
+.h1 {
     text-align: center;
-    padding: 60px;
-}
-
-h2 {
-    font-style: italic;
-    flood-color: rgb(27, 2, 18);
-    padding: 60px;
-    text-align: center;
-}
-
-form {
-    text-align: center;
+    margin-top: 25%;
+    overflow: hidden; 
+  border-right: .15em solid orange; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
     
 }
 
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: transparent }
+}  
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 180px;
+}
+
+#form {
+    align-content: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    width: 20%;
+}
+
+#username {
+    color: red;
+    font-size: 20px;
+    font-family: verdana;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.description {
+
+}
+
+#Submit {
+    background-color: purple;
+    
+}
+
+.form-group {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+    
 
