@@ -24,29 +24,31 @@
 
   <div class="h1">
     <h1><strong>Don't cruise the internet without finding out your name!!<br>You can get it with just a click of a
-      button</strong></h1>
+      button.</strong></h1>
   </div>
     
   <div class="container h-100">
     <div class="row h-100 justify-content-center align-items-center">
         <div class="col-10 col-md-8 col-lg-6">
             <form class="form-example" action="" method="post">
-                <p class="description">Fill in your details below and get your name</p>
+              <div>
+                <p class="description" id="description"><b>Fill in your details below and get your name.</b></p>
                 <div class="form-group">
-                    <label id="mm">Birthday Month:</label>
-                    <input type="number" class="form-control number" id="mm" name="username">
+                  </div>
+                    <label id="mm"><strong> MONTH:</strong></label>
+                    <input type="number" class="form-control number" id="mm"  placeholder="e.g 11 if Birthday Month is December" required>
                 </div>
                 <div class="form-group">
-                  <label id="mm">Birthday Date:</label>
-                  <input type="number" class="form-control number" id="dd" name="username">
-              </div>
+                  <label id="mm"><strong>DATE OF BIRTHDAY:</strong></label>
+                  <input type="number" class="form-control number" id="dd"  placeholder="e.g 23 if birthday date of the month is 23" required>
+                </div>
                 <div class="form-group">
-                  <label id="mm">Year of birth:</label>
-                    <input type="number" class="form-control number" id="cc" name="username">
-            </div>
+                  <label id="mm"><strong>YEAR OF BIRTH:</strong></label>
+                    <input type="number" class="form-control number" id="yy" placeholder="e.g 1986 if you were born in 1986" required>
+                </div>
                 <fieldset class="form-group">
-                  <div class="row">
-                    <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
+                  <div class="row" id="gender" >
+                    <legend class="col-form-label col-sm-2 pt-0"><strong>GENDER:</strong></legend>
                     <div class="col-sm-10">
                       <div class="form-check">
                         <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
@@ -55,7 +57,7 @@
                         </label>
                       </div>
                       <div class="form-check">
-                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2" checked>
                         <label class="form-check-label" for="gridRadios2">
                           Female
                         </label>
@@ -64,7 +66,17 @@
                     </div>
                   </div>
                 </fieldset>
-                <button type="submit" class="btn btn-primary btn-customized">Submit</button>
+          
+              <div>
+                <p>Get your Akan name and day of birth!!</p>
+                
+                <button onclick="myFunction" button type="submit" class="btn btn-primary btn-customized" id="Submit">Submit</button>
+            </div>
+              <div>
+               
+               
+              </div>
+                
                 
             </form>
            
