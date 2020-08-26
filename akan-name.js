@@ -10,14 +10,19 @@ function myFunction() {
   let year = document.getElementById("year").value;
   const definedMonths = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'aeptember', 'october', 'november', 'december']
 
-  if (day <1 || day>31) {
-  document.getElementById("dateError").innerHTML="enter valid date"   
-  } else if (year ==="") {
-  document.getElementById("yearError").innerHTML="cannot be empty"  
-  } else if (definedMonths.includes(month.toLowerCase())===false) {
-  document.getElementById("monthError").innerHTML="enter a valid month"
+  if (day <1 || day >31) {
+    document.getElementById("dateError").innerHTML="enter valid date"   
+    } 
+    if (year ==="") {
+    document.getElementById("yearError").innerHTML = "cannot be empty"  
+    } 
+     if (definedMonths.includes(month.toLowerCase())===false) {
+    document.getElementById("monthError").innerHTML = "enter a valid month"
+    }
   
-  }
+    if(genders===0){
+      document.getElementById("genderError").innerHTML = "please chose gender"
+    }
 
   let userAkan;
   var d = new Date(ourDate.concat(month, " ", day, " ", year));
@@ -60,6 +65,35 @@ function myFunction() {
   }
   console.log(dayIndex, femaleName[3]);
   // alert(userAkan);
-  document.getElementById("answer").innerHTML = `Your Akan name is ${userAkan} `
+  if (userAkan === undefined) {
+    document.getElementById("answer").innerHTML = ""
+  document.getElementById("errorAns").innerHTML = `Sorry we could not generate your akan name make sure to provide a valid date of birth, month of birth and year of birth`
+  setTimeout(() => {
+    document.getElementById("dateError").innerHTML="" 
+  document.getElementById("yearError").innerHTML = "" 
+  document.getElementById("monthError").innerHTML = ""
+  document.getElementById("genderError").innerHTML = ""
+    document.getElementById("errorAns").innerHTML = ""
+    document.getElementById("answer").innerHTML = ""
+  },3000)
+  
+
+  document.getElementById("myForm").reset();
+  } else {
+    document.getElementById("answer").innerHTML = `Your Akan name is ${userAkan} `
+    setTimeout(() => {
+      document.getElementById("dateError").innerHTML="" 
+    document.getElementById("yearError").innerHTML = "" 
+    document.getElementById("monthError").innerHTML = ""
+    document.getElementById("genderError").innerHTML = ""
+    document.getElementById("errorAns").innerHTML = ""
+    },3000)
+    
+
+    document.getElementById("myForm").reset();
+  }
   return userAkan;
 }
+
+
+

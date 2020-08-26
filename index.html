@@ -31,7 +31,7 @@
   <div class="container h-100">
     <div class="row h-100 justify-content-center align-items-center">
         <div class="col-10 col-md-8 col-lg-6">
-            <form class="form-example">
+            <form class="form-example" id="myForm">
               <div>
                 <p class="description" id="description"><b>Fill in your details below and get your name.</b></p>
                 <div class="form-group">
@@ -39,43 +39,32 @@
                     <label id="mm"><strong> MONTH:</strong></label>
                     <input type="text" class="form-control number" id="month"  placeholder="e.g December" required>
                 </div>
-                <p id="monthError"> </p>
+                <p id="monthError" style="color:red"> </p>
                 <div class="form-group">
                   <label id="mm"><strong>DATE OF BIRTHDAY:</strong></label>
                   <input type="number" class="form-control number" id="day"  placeholder="e.g 23" required>
                 </div>
-                <p id="dateError"> </p>
+                <p id="dateError"  style="color:red"> </p>
                 <div class="form-group">
                   <label id="mm"><strong>YEAR OF BIRTH:</strong></label>
                     <input type="number" class="form-control number" id="year" placeholder="e.g 1986" required>
                 </div>
-                <p id="yearError"> </p>
+                <p id="yearError"  style="color:red"> </p>
                 <select id="my-dropdown" name="my-dropdown">
                   <option value="0">Select gender</option>
                   <option value="male">Male</option>
                   <option value="female">Female</option>
                 </select>
+                <p id="genderError" style="color:red"></p>
               <div>
-                <p>Get your Akan name and day of birth!!</p>
                 <h1 id="answer">  </h1>
-                
+                <h3 id="errorAns" style="color:red"></h3>                
               <button onclick="myFunction();return false" button  class="btn btn-primary btn-customized" id="Submit">Submit</button>
             </div>
-              <div>
-               
-               
-              </div>
-                
-                
             </form>
-           
         </div>
     </div>
 </div>
-  <p>Ghanians are so rich of culture.<br>To learn more about the Akan naming culture please visit <a href="https://hadithi.africa/2019/12/12/the-ghanaian-tradition-of-day-names-and-everything-you-need-to-know-about-it/"</a></p>
-  
-
-
 </body>
 <script type="text/javascript" src="./akan-name.js"></script>
 </html>
