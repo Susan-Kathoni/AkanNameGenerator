@@ -39,14 +39,17 @@
                     <label id="mm"><strong> MONTH:</strong></label>
                     <input type="text" class="form-control number" id="month"  placeholder="e.g December" required>
                 </div>
+                <p id="monthError"> </p>
                 <div class="form-group">
                   <label id="mm"><strong>DATE OF BIRTHDAY:</strong></label>
                   <input type="number" class="form-control number" id="day"  placeholder="e.g 23" required>
                 </div>
+                <p id="dateError"> </p>
                 <div class="form-group">
                   <label id="mm"><strong>YEAR OF BIRTH:</strong></label>
                     <input type="number" class="form-control number" id="year" placeholder="e.g 1986" required>
                 </div>
+                <p id="yearError"> </p>
                 <select id="my-dropdown" name="my-dropdown">
                   <option value="0">Select gender</option>
                   <option value="male">Male</option>
@@ -54,6 +57,7 @@
                 </select>
               <div>
                 <p>Get your Akan name and day of birth!!</p>
+                <h1 id="answer">  </h1>
                 
               <button onclick="myFunction();return false" button  class="btn btn-primary btn-customized" id="Submit">Submit</button>
             </div>
