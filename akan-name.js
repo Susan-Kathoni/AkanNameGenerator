@@ -55,7 +55,7 @@ function myFunction() {
     "Kofi",
     "Kwame",
   ];
-  var femaleName = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Amna"];
+  var femaleName = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
   const findDay = (element) => element == n;
   var dayIndex = days.findIndex(findDay);
   if (genders === 1) {
