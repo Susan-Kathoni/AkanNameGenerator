@@ -62,3 +62,4 @@ SOFTWARE.
 
 [MIT](https://github.com/Susan-Kathoni/AkanNameGenerator/blob/master/LICENSE.md)
  © [Susan Kathoni](https://github.com/Susan-Kathoni)
+ [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
