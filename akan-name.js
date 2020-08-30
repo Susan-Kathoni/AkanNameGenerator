@@ -5,9 +5,9 @@ function myFunction() {
  
   var genders = document.getElementById("my-dropdown").selectedIndex;
   const ourDate = "";
-  let month = document.getElementById("month").value; autocomplete="off"
-  let day = document.getElementById("day").value; autocomplete="off"
-  let year = document.getElementById("year").value; autocomplete="off"
+  let month = document.getElementById("month").value; 
+  let day = document.getElementById("day").value; 
+  let year = document.getElementById("year").value; 
   const definedMonths = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'aeptember', 'october', 'november', 'december']
 
   if (day <1 || day >31) {
