@@ -5,19 +5,19 @@ function myFunction() {
  
   var genders = document.getElementById("my-dropdown").selectedIndex;
   const ourDate = "";
-  let month = document.getElementById("month").value;
-  let day = document.getElementById("day").value;
-  let year = document.getElementById("year").value;
+  let month = document.getElementById("month").value; autocomplete="off"
+  let day = document.getElementById("day").value; autocomplete="off"
+  let year = document.getElementById("year").value; autocomplete="off"
   const definedMonths = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'aeptember', 'october', 'november', 'december']
 
   if (day <1 || day >31) {
     document.getElementById("dateError").innerHTML="enter valid date"   
     } 
     if (year ==="") {
-    document.getElementById("yearError").innerHTML = "cannot be empty"  
+    document.getElementById("yearError").innerHTML = "cannot be empty" 
     } 
      if (definedMonths.includes(month.toLowerCase())===false) {
-    document.getElementById("monthError").innerHTML = "enter a valid month"
+    document.getElementById("monthError").innerHTML = "enter a valid month" 
     }
   
     if(genders===0){
