@@ -1,67 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <link href="./style.css" rel="stylesheet" type="text/css" media="screen" />
-  
-  <title>Akan naming</title>
-  
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link href="./style.css" rel="stylesheet" type="text/css" media="screen" />
 
-<body>
+    <title>Akan naming</title>
+  </head>
+
+  <body>
     <div class="h1">
-    <h1><strong>Don't cruise the internet without finding out your name!!<br>You can get it with just a click of a
-      button.</strong></h1>
+      <h1>
+        <strong
+          >Don't cruise the internet without finding out your name!!<br />You
+          can get it with just a click of a button.</strong
+        >
+      </h1>
     </div>
     <div class="container h-100">
-    <div class="row h-100 justify-content-center align-items-center">
+      <div class="row h-100 justify-content-center align-items-center">
         <div class="col-10 col-md-8 col-lg-6">
-            <form class="form-example" id="myForm">
-              <div>
-                <p class="description" id="description"><b>Fill in your details below and get your name.</b></p>
-                <div class="form-group">
-                  </div>
-                    <label id="mm"><strong> MONTH:</strong></label>
-                    <input type="text" class="form-control number" id="month"  placeholder="e.g December" required>
-                </div>
-                <p id="monthError" style="color:red"> </p>
-                <div class="form-group">
-                  <label id="mm"><strong>DATE OF BIRTHDAY:</strong></label>
-                  <input type="number" class="form-control number" id="day"  placeholder="e.g 23" required>
-                </div>
-                <p id="dateError"  style="color:red"> </p>
-                <div class="form-group">
-                  <label id="mm"><strong>YEAR OF BIRTH:</strong></label>
-                    <input type="number" class="form-control number" id="year" placeholder="e.g 1986" required>
-                </div>
-                <p id="yearError"  style="color:red"> </p>
-                <select id="my-dropdown" name="my-dropdown">
-                  <option value="0">Select gender</option>
-                  <option value="male">Male</option>
-                  <option value="female">Female</option>
-                </select>
-                <p id="genderError" style="color:red"></p>
-              <div>
-                <h1 id="answer">  </h1>
-                <h3 id="errorAns" style="color:red"></h3>                
-              <button onclick="myFunction();return false" button  class="btn btn-primary btn-customized" id="Submit">Submit</button>
+          <form class="form-example" id="myForm">
+            <div>
+              <p class="description" id="description">
+                <b>Fill in your details below and get your name.</b>
+              </p>
+              <div class="form-group"></div>
+              <label id="mm"><strong> MONTH:</strong></label>
+              <input
+                type="text"
+                class="form-control number"
+                id="month"
+                placeholder="e.g December"
+                required
+              />
             </div>
-            </form>
+
+            <p id="monthError" style="color: red"></p>
+            <div class="form-group">
+              <label id="mm"><strong>DATE OF BIRTHDAY:</strong></label>
+              <input
+                type="number"
+                class="form-control number"
+                id="day"
+                placeholder="e.g 23"
+                required
+              />
+            </div>
+            <p id="dateError" style="color: red"></p>
+            <div class="form-group">
+              <label id="mm"><strong>YEAR OF BIRTH:</strong></label>
+              <input
+                type="number"
+                class="form-control number"
+                id="year"
+                placeholder="e.g 1986"
+                required
+              />
+            </div>
+            <p id="yearError" style="color: red"></p>
+            <select id="my-dropdown" name="my-dropdown">
+              <option value="0">Select gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+            <p id="genderError" style="color: red"></p>
+            <div>
+              <h1 id="answer"></h1>
+              <h3 id="errorAns" style="color: red"></h3>
+              <button
+                onclick="myFunction();return false"
+                button
+                class="btn btn-primary btn-customized"
+                id="Submit"
+              >
+                Submit
+              </button>
+            </div>
+          </form>
         </div>
+      </div>
     </div>
-</div>
-</body>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    <div class="jumbotron jumbotron-fluid" id="about-Ghana">
+      <h2 id="aboutGhanaHeader"><b>THE GHANIAN TRADITION OF DAY NAMES</b></h2>
+        <hr class="my-4">
+          <p id="par-1">The naming system of the Akan people is distinct.Other forms
+                of traditional naming include middle names, which can refer to
+                order of birth as part of the caste of siblings, twin status,
+                or could be an inherited maiden name. </p>
+          <p id="par-2">The Ghanaian culture cannot be considered a uniform one. Rather, it consists
+                of hundreds of different ethnic influences and tribes who speak their own dialects
+                 and their own languages, having different cultural backgrounds. However, the different
+                  Ghanaian ethnic groups largely share one common belief: the naming of their children.</p>
+          <p id="par-3">The Akan have defined seven names per gender, each referring to a day of the week.
+                    This naming after the days of the week has a much deeper meaning, because the day on which a person was born has about the similar significance as in the western hemisphere the assignment to a sign of the zodiac.</p>
+    </div>
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
     integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-    crossorigin="anonymous"></script>
-<script type="text/javascript" src="./akan-name.js"></script>
+    crossorigin="anonymous"
+  ></script>
+  <script type="text/javascript" src="./akan-name.js"></script>
 </html>
