@@ -20,16 +20,19 @@ body {
   from {
     width: 0;
   }
+
   to {
     width: 100%;
   }
 }
 
 @keyframes blink-caret {
+
   from,
   to {
     border-color: transparent;
   }
+
   50% {
     border-color: transparent;
   }
@@ -66,8 +69,28 @@ h2 {
   background-color: purple;
 }
 
-/* #gender {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-emphasis-color: black;
-    font-size: 30px;
-}    */
+#gender {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-emphasis-color: black;
+  font-size: 30px;
+}
+
+#about-Ghana {
+ background-color: transparent;
+ text-align: justify;
+ padding-left: 30px;
+ padding-right: 30px;
+}
+
+#aboutGhanaHeader {
+  font-weight: bolder;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: crimson;
+  text-align: center;
+}
+#par-1,
+#par-2,
+#par-3 {
+  color: black;
+  font-weight: bold;
+}
